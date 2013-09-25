@@ -85,7 +85,7 @@
 				if(strpos($row, '@2x')===false){
 					?>
 	  			  <div class="mosaicflow__item<?php echo $css_class; ?>">
-	  				 <img width="<?php echo $w; ?>" height="<?php echo $h; ?>" class="img-responsive"  src="../img/grey.gif" data-original="../<?php echo $row; ?>" alt="Archive"></div>
+	  				 <img width="<?php echo $w; ?>" height="<?php echo $h; ?>" class="img-responsive" src="../<?php echo $row; ?>" alt="Archive"></div>
 			<?php       
 			    };
 			?>
