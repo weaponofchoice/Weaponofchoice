@@ -39,7 +39,7 @@ $.getScript("/js/vendor/waypoints.min.js", function(){
 	}, { offset: '60px'});
 	
 	$('#work').waypoint(function(down) {
-	  $('header').addClass('work');
+	  $('header').addClass('work secondary');
 	  
 	}, { offset: '50px'});
 	
@@ -61,11 +61,11 @@ $.getScript("/js/vendor/waypoints.min.js", function(){
 	
 	
 	$('#archive').waypoint(function(down) {
-	  $('header').addClass('archive');
+	  $('header').addClass('archive secondary');
 	}, { offset: '50px'});
 	
 	$('#archive').waypoint(function(up) {
-	  $('header').removeClass().addClass('work');
+	  $('header').removeClass().addClass('work ');
 	}, { offset: '60px'});
 	
 	$('#archive').waypoint(function(up) {
@@ -82,7 +82,7 @@ $.getScript("/js/vendor/waypoints.min.js", function(){
 });
 
 $.getScript("/js/vendor/jquery.backstretch.min.js", function(){
-	$("#work").backstretch("/img/fry.jpg");
+	$(".case01-container").backstretch("/img/fry.jpg");
 	
 });
 

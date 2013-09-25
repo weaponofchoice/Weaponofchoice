@@ -104,6 +104,8 @@ $primary-color:#fff;
 $secondary-color:#000;
 $tertiary-color:#faebd7 ;
 
+$case01-color:#d8d8d8;
+
 $main-font:"WOC_75Bd", 'Helvetiva', 'arial, sans-serif';
 $secondary-font:"Courier New", 'Courier', 'monospace';
 
@@ -225,6 +227,11 @@ ul.main-nav li:last-child{
 	padding:0  0 0 10px;
 }
 
+
+header.secondary {color:$primary-color;}
+header.secondary a:link, header.secondary a:visited, header.secondary a:hover, header.archive a:active{color:$primary-color;}
+header.secondary a:hover, header.secondary a:active{border-color:$primary-color;}
+
 /* Footer
 ----------------------------------------------------------------------------------------------------*/
 footer{
@@ -281,15 +288,28 @@ section.normal {
 section#profile{background:$tertiary-color ;}
 .profile {background:$tertiary-color ;}
 
-section#work{background:#d8d8d8 ;}
-.work{background:#d8d8d8 ;}
+section#work{background:#fff ;}
+.work{background:$case01-color ;}
 
 section#archive{background:$secondary-color ; padding:50px 0;}
 .archive {background:$secondary-color}
 
-header.archive {color:$primary-color;}
-header.archive a:link, header.archive a:visited, header.archive a:hover, header.archive a:active{color:$primary-color;}
-header.archive a:hover, header.archive a:active{border-color:$primary-color;}
+
+
+/* Work cases
+----------------------------------------------------------------------------------------------------*/
+#case01{
+	width:100%;
+	height:100%;
+	background:$case01-color ;
+	position:relative;
+}
+
+.case01-container{
+	height:100%;
+	position:relative;
+}
+
 
 /* Archive Image Grid
 ----------------------------------------------------------------------------------------------------*/

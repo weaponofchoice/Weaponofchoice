@@ -72,6 +72,10 @@
 		</section>
 		
 		<section id="work" class="fullscreen">
+			<div id="case01">
+				<div class="case01-container container_3">
+				</div>
+			</div>
 		</section>
 		
 		<section id="archive" class="normal">
