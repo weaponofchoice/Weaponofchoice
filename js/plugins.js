@@ -85,3 +85,12 @@ $.getScript("/js/vendor/jquery.backstretch.min.js", function(){
 	$("#work").backstretch("/img/fry.jpg");
 	
 });
+
+$.getScript("/js/vendor/jquery.lazyload.min.js", function(){
+	$("img.img-responsive").lazyload();
+	
+});
+
+$.getScript("/js/vendor/retina-1.1.0.min.js", function(){
+	
+});

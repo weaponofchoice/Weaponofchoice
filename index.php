@@ -82,14 +82,14 @@
 			<?php foreach(glob("img/archive/*.{jpg,JPG,jpeg,JPEG,gif,GIF,png,PNG}",
 			GLOB_BRACE) as $idx => $row):
 			list($w, $h) = getimagesize($row);
-			        if($idx % 3 == 1) {
-			          $css_class = '';
-			        } else {
-			          $css_class = '';
-			        }
+				if(strpos($row, '@2x')===false){
+					?>
+	  			  <div class="mosaicflow__item<?php echo $css_class; ?>">
+	  				 <img width="<?php echo $w; ?>" height="<?php echo $h; ?>" class="img-responsive"  src="../img/grey.gif" data-original="../<?php echo $row; ?>" alt="Archive"></div>
+			<?php       
+			    };
 			?>
-			  <div class="mosaicflow__item<?php echo $css_class; ?>">
-				 <img width="<?php echo $w; ?>" height="<?php echo $h; ?>" class="img-responsive" src="<?php echo $row; ?>" alt="Archive"></div>
+			  
 			<?php endforeach; ?>
 			
 			</div>
