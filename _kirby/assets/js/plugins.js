@@ -22,11 +22,11 @@
 }());
 
 //Place any jQuery/helper plugins in here.
-$.getScript("/assets/js/vendor/jquery.mosaicflow.min.js", function(){
+$.getScript("../assets/js/vendor/jquery.mosaicflow.min.js", function(){
 	
 });
 
-$.getScript("/assets/js/vendor/waypoints.min.js", function(){
+$.getScript("../assets/js/vendor/waypoints.min.js", function(){
 	
 	$('#profile').waypoint(function(down) {
 	  $('header').addClass('profile');
@@ -81,16 +81,16 @@ $.getScript("/assets/js/vendor/waypoints.min.js", function(){
 
 });
 
-$.getScript("/assets/js/vendor/jquery.backstretch.min.js", function(){
+$.getScript("../assets/js/vendor/jquery.backstretch.min.js", function(){
 	$(".case01-container").backstretch("/img/fry.jpg");
 	
 });
 
-$.getScript("/assets/js/vendor/jquery.lazyload.min.js", function(){
+$.getScript("../assets/js/vendor/jquery.lazyload.min.js", function(){
 	$("img.img-responsive").lazyload();
 	
 });
 
-$.getScript("/assets/js/vendor/retina-1.1.0.min.js", function(){
+$.getScript("../assets/js/vendor/retina-1.1.0.min.js", function(){
 	
 });
