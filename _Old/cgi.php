@@ -20,12 +20,12 @@
 		<style>
 		
 		.container_3{
-			background:url('../img/MOD600_Dark.jpg')	
+			background:url('/_old/img/MOD600_Dark.jpg')	
 		
 		}
 		
 		#resizeDiv{
-			background:url('../img/MOD600_Light.jpg');
+			background:url('/_old/img/MOD600_Light.jpg');
 			width:400px;
 			height:500px;
 		}

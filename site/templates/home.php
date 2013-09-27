@@ -35,11 +35,24 @@ snippet('header');
 	</div>
 </section>
 
-<?php
 
+<section id="work" class="fullscreen">
+	<div id="case01">
+		<div class="case01-container container_3">
+		</div>
+	</div>
+</section>
+
+
+<?php 
 foreach($pages->visible() as $section) {
   snippet($section->uid(), array('data' => $section));
 }
+
+?>
+
+<?php
+
 
 snippet('footer');
 
