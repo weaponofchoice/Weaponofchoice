@@ -109,6 +109,10 @@ $case01-color:#d8d8d8;
 $main-font:"NHaasGroteskDSPro-75Bd", 'Helvetiva', 'arial, sans-serif';
 $secondary-font:"Courier New", 'Courier', 'monospace';
 
+@mixin rounded-top-left {
+	text-shadow: -1px -2px 1px rgba(150, 150, 150, 1);
+}
+
 
 @import "grid";		      //Grid styles
 @import "fonts";		 //Typography loading	
@@ -194,6 +198,7 @@ a:link, a:visited, a:hover, a:active{
 
 a:hover, a:active{
 	border-bottom:2px solid $secondary-color;
+	
 }
 
 
@@ -319,9 +324,11 @@ section#archive{background:$secondary-color ; padding:50px 0;}
 .work-nav{
 	position: absolute;
 	margin-top: 25%;
-	z-index: 999;
+	z-index: 998;
 	padding:0 5%;
-	width:90%
+	width:90%;
+	font-size:60px;
+	color:$primary-color;
 }
 
 #prevControl{
@@ -336,13 +343,33 @@ section#archive{background:$secondary-color ; padding:50px 0;}
 	width:100px;
 }
 
+#prevControl:hover, #nextControl:hover{
+	@include rounded-top-left;
+	cursor:pointer;
+}
+
 .case-link{
 	position:absolute;
-	top:50%;
-	width:100%;
+	top:30%;
+	left:65%;
+	width:auto;
 	text-align:center;
-	z-index:999;;
+	z-index:998;
+	font-size:100px;
+	margin-top:-20px; //strange position fix
+	
 }
+
+a.case-link:link, a.case-link:visited{
+	color:$primary-color;
+}
+
+a.case-link:hover, a.case-link:active{
+	color:$primary-color;
+	border:none;
+	@include rounded-top-left;
+}
+
 
 /* Archive Image Grid
 ----------------------------------------------------------------------------------------------------*/
