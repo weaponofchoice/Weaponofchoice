@@ -82,7 +82,7 @@ $.getScript("/assets/js/vendor/waypoints.min.js", function(){
 });
 
 $.getScript("/assets/js/vendor/jquery.backstretch.min.js", function(){
-	$(".case01-container").backstretch("/img/fry.jpg");
+	$(".case01-container").backstretch("../img/fry.jpg");
 	
 });
 
