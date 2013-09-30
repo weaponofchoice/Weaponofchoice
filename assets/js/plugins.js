@@ -81,10 +81,12 @@ $.getScript("/assets/js/vendor/waypoints.min.js", function(){
 
 });
 
-$.getScript("/assets/js/vendor/jquery.backstretch.min.js", function(){
-	$(".case01-container").backstretch("../img/fry.jpg");
+//$.getScript("/assets/js/vendor/jquery.backstretch.min.js", function(){
+	 
+	// ** not using anymre
 	
-});
+	//});
+
 
 $.getScript("/assets/js/vendor/jquery.lazyload.min.js", function(){
 	$("img.img-responsive").lazyload();

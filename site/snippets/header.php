@@ -12,6 +12,8 @@
   <?php echo css('assets/css/normalize.css') ?>
   <?php echo css('assets/css/main.css') ?>
   <?php echo js('/assets/js/vendor/modernizr-2.6.2.min.js') ?>
+  
+	
 
 </head>
 

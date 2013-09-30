@@ -249,6 +249,7 @@ footer.secondary, footer.secondary a:link, footer.secondary a:visited, footer.se
 
 footer.secondary.position-relative{
 	background:$secondary-color;
+	float: left;
 }
 
 span.lang{
@@ -272,6 +273,7 @@ address.right {
 
 section {
 	position:relative;
+	float:left;
 }
 section.fullscreen {
 	width:100%; height:100%; min-height:720px;
@@ -280,6 +282,10 @@ section.normal {
 	width:100%; height:auto;
 }
 
+
+.cycle-slideshow{
+	height:100%;
+}
 
 /* Sections
 ----------------------------------------------------------------------------------------------------*/
@@ -298,18 +304,45 @@ section#archive{background:$secondary-color ; padding:50px 0;}
 
 /* Work cases
 ----------------------------------------------------------------------------------------------------*/
-#case01{
+.case{
 	width:100%;
 	height:100%;
 	background:$case01-color ;
 	position:relative;
 }
 
-.case01-container{
+.case-container{
 	height:100%;
 	position:relative;
 }
 
+.work-nav{
+	position: absolute;
+	margin-top: 25%;
+	z-index: 999;
+	padding:0 5%;
+	width:90%
+}
+
+#prevControl{
+	float:left;
+	position:relative;
+	width:100px
+}
+
+#nextControl{
+	float:right;
+	position:relative;
+	width:100px;
+}
+
+.case-link{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	z-index:999;;
+}
 
 /* Archive Image Grid
 ----------------------------------------------------------------------------------------------------*/
