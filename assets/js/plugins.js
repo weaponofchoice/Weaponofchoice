@@ -96,3 +96,9 @@ $.getScript("/assets/js/vendor/jquery.lazyload.min.js", function(){
 $.getScript("/assets/js/vendor/retina-1.1.0.min.js", function(){
 	
 });
+
+$.getScript("/assets/js/vendor/jquery.colorbox-min.js", function(){
+	$(".various").colorbox({width:"80%", height:"80%"});
+});
+
+

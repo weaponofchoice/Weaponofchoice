@@ -1,11 +1,11 @@
-<?php snippet('header') ?>
+
 
 
 	
 
 
 
-<div class="container">
+
 	
 	<?php if($page->hero() !='' && $page->hero() !='0'): ?>
 	<?php $image = $page->images()->find( html($page->hero()) ) ?>
@@ -44,7 +44,6 @@
 		
 			
 
-</div>
 
 
-<?php snippet('footer') ?>
+

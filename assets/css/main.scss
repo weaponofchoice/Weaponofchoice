@@ -384,6 +384,17 @@ a.case-link:hover, a.case-link:active{
 	padding: 3% 0;
 }
 
+#cboxOverlay{
+	height:100%;
+	width:100%;
+	background:#000;
+}
+
+#cboxOverlay, #colorbox{
+	position:fixed;
+	top:0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -11,7 +11,7 @@
 		   <?php foreach($data->children()->visible() as $project): ?>
 			<div class="mosaicflow__item">
 			   
-					<a href="<?php echo $project->url() ?>">
+					<a class="various fancybox.ajax" href="<?php echo $project->url() ?>">
 			     		<img src="<?php echo $project->images()->first()->url() ?>" class="img-responsive" alt="<?php echo html($project->title()) ?>" />
 					</a>
 		   </div>
@@ -20,4 +20,4 @@
 	  </div>
 		  
 	  <div class="clearfix"></div>
-</section>
+</section>	
