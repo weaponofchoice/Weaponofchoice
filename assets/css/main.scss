@@ -124,7 +124,6 @@ $secondary-font:"Courier New", 'Courier', 'monospace';
    ========================================================================== */
 
 
-
 body, html {
   height: 100%;
 }
@@ -152,6 +151,25 @@ body{
 }
 
 .hidden {display:none;}
+
+
+img.desaturate{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+filter: grayscale(100%);
+filter: url(desaturate.svg#greyscale);
+filter: gray;
+}
+
+img.desaturate:hover{
+filter: grayscale(0);
+-webkit-filter: grayscale(0); -moz-filter: grayscale(0);
+filter: grayscale(0);
+filter: url();
+filter: none;
+}
+
+
 
 /* Typography
 ----------------------------------------------------------------------------------------------------*/

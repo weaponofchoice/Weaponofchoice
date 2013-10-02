@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 //	$('.case-link').mouseover(
 //	  function() {
@@ -7,4 +9,7 @@ $(document).ready(function(){
 //	  function() {
 //	    $( '.case' ).animate( {"zoom": "1"});
 //	});
+
+
 })
+

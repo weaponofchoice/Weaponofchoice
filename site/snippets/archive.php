@@ -13,10 +13,11 @@
 			<?php 
 			 $first = true;
 			 foreach($project->images()->shuffle() as $image): 
-	     		  if(strpos($image, '@2x')===false){
+	     		  if(strpos($image, '@2x')===false //&& strpos($image, '@color')===false// 
+				  					){
 					  if ($first){ ?>
 						  
-					 <a class="various archive-img first <?php echo $project->tinyurl() ?>" href="<?php echo $image->url() ?>" rel="<?php echo $project->tinyurl() ?>" ><img src="<?php echo $image->url() ?>" class="img-responsive" alt="<?php echo html($project->title()) ?>" /></a>
+					 <a class=" des various archive-img first <?php echo $project->tinyurl() ?>" href="<?php echo $image->url() ?>" rel="<?php echo $project->tinyurl() ?>" ><img src="<?php echo $image->url() ?>" class="img-responsive desaturate" alt="<?php echo html($project->title()) ?>" /></a>
 					 
 					 <?php
 						$first = false;
