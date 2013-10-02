@@ -102,7 +102,7 @@ $.getScript("/assets/js/vendor/bootstrap.min.js", function(){
 });
 
 $.getScript("/assets/js/vendor/jquery.colorbox-min.js", function(){
-	$(".various").colorbox({width:"80%", height:"80%"});
+	$(".various").colorbox({width:"80%", height:"80%", innerWidth: "90%", innerHeight: "90%"});
 });
 $.getScript("/assets/js/vendor/jquery.scrollTo-1.4.3.1-min.js", function(){
 	
