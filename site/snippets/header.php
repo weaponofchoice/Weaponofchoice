@@ -25,7 +25,7 @@
 			<div class="grid_1 alpha">
 				<h1>weaponofchoice</h1>
 			</div>
-			<div class="grid_2 omega">
+			<div class="grid_2 omega menu-bar">
 				<ul class="main-nav ">
 					<li><a href="#profile">Profile</a></li>
 					<li><a href="#work">Work</a></li>

@@ -151,6 +151,8 @@ body{
 
 }
 
+.hidden {display:none;}
+
 /* Typography
 ----------------------------------------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, .main-nav{
@@ -196,7 +198,7 @@ a:link, a:visited, a:hover, a:active{
 	text-decoration:none;
 }
 
-a:hover, a:active{
+a:hover, a.active{
 	border-bottom:2px solid $secondary-color;
 	
 }
@@ -394,6 +396,22 @@ a.case-link:hover, a.case-link:active{
 	position:fixed;
 	top:0;
 }
+
+#colorbox .cycle-slideshow{
+	width:100%;
+	text-align:center;
+}
+
+#colorbox:focus{
+	outline:none;
+}
+
+
+.archive-img{
+	margin: 0 auto;
+	height: 100%;
+}
+
 
 /* ==========================================================================
    Helper classes

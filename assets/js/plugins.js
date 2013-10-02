@@ -97,8 +97,20 @@ $.getScript("/assets/js/vendor/retina-1.1.0.min.js", function(){
 	
 });
 
+$.getScript("/assets/js/vendor/bootstrap.min.js", function(){
+	$('body').scrollspy({ target: '.main-nav' })
+});
+
 $.getScript("/assets/js/vendor/jquery.colorbox-min.js", function(){
 	$(".various").colorbox({width:"80%", height:"80%"});
 });
+$.getScript("/assets/js/vendor/jquery.scrollTo-1.4.3.1-min.js", function(){
+	
+});
+
+$.getScript("/assets/js/vendor/jquery.localscroll-1.2.7-min.js", function(){
+	 $('.main-nav ').localScroll();
+});
+
 
 

@@ -1,9 +1,17 @@
-Title: Kirby
+﻿Title: weaponofchoice
+
 ----
-Author: Bastian Allgeier
+
+Author: Bruce Moerdjiman
+
 ----
-Description: Kirby is awesome
+
+Description: 
+
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
+
+Keywords: weaponofchoice
+
 ----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+
+Copyright: © 2009-(date: Year) (link: http://www.weaponofchoice.nl text: weaponofchoice)
