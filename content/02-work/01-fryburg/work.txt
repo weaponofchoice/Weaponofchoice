@@ -1,17 +1,42 @@
-Title: Fryburg
+﻿Header: header.jpg
 
 ----
 
-Hero: header.jpg
+Hero: hero.png
 
 ----
 
-Text: The new boutique of L&C Fashion is located near the Royal Palace at the Noordeinde in The Hague. The boutique sells delicate, luxurious women’s clothing and accessory from Italy with unique labels. The slogan of L&C Fashion, ‘Italian slow fashion’, points to the high quality of their products.WOC
-
-**Assignment:** Interior design, Project Management
-**Size:** 1.500m2
-**Status:** Completed 2012
-**Photography:** Jeroen Musch
+Title: Fryburg - online design haven
 
 ----
 
+Quote: creating a digital  
+destination for collecting 
+iconic 20th century  
+furniture classics.
+
+----
+
+Copy01: Can’t wait for the next Wright auction? Get your fix of stylish and significant design with Wright Now, Wright’s online marketplace offering unparalleled access to great design. Wright’s team of industry-leading specialists applies the same high standard for quality and exceptional design to every piece selected for Wright Now, from iconic classics to exclusive one-offs.
+
+----
+
+Midden: (image: middle_content.jpg class: img-responsive)
+
+#### We’ve captured close to  
+#### a thousand items in the studio
+
+(image: ipads.jpg class: img-responsive)
+
+#### We’ve designed a great variaty 
+#### of templates for various screen
+
+----
+
+Onder: onder.jpg
+
+----
+
+Meta: **weaponofchoice** for FabriekNL
+in close colaboration with Florian Schroiff
+and Mathilde Karre

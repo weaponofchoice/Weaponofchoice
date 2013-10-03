@@ -106,7 +106,8 @@ $tertiary-color:#faebd7 ;
 
 $case01-color:#d8d8d8;
 
-$main-font:"NHaasGroteskDSPro-75Bd", 'Helvetiva', 'arial, sans-serif';
+$main-font:"NHaasGroteskDSPro-75Bd", 'Helvetica', 'arial, sans-serif';
+$main-font-regular:"NHaasGroteskTXStd-55Rg", 'Helvetica', 'arial, sans-serif';
 $secondary-font:"Courier New", 'Courier', 'monospace';
 
 @mixin rounded-top-left {
@@ -135,6 +136,7 @@ body{
 .img-responsive{display:block;
 	max-width:94%;
 	height:auto;
+	margin:0 auto;
 }
 
 .position-fixed{
@@ -179,8 +181,14 @@ h1, h2, h3, h4, h5, .main-nav{
 
 
 
-h1, h2, h3, .main-nav {
+h1, h2, h3, .main-nav, blockquote, strong {
 	font-family: $main-font;
+	font-weight:normal;
+}
+
+p, h2.work-title{
+	font-family:$main-font-regular;
+	font-weight:normal;
 }
 
 footer{
@@ -199,9 +207,26 @@ h2 {
 	padding: 20% 0 0 0;
 }
 
+h2.work-title {
+	
+	padding: 60px 0 0 0;
+	font-size:0.938em;
+	
+}
+
 h3{
 	font-size: 1.750em;
 	line-height:1.25em;
+}
+
+p{
+	font-size:0.938em;
+	line-height:1.4em;
+}
+
+blockquote{
+	font-size:2.000em;
+	line-height:1.000em;
 }
 
 .main-nav{
@@ -435,6 +460,47 @@ a.case-link:hover, a.case-link:active{
 .archive-img{
 	margin: 0 auto;
 	height: 100%;
+}
+
+/* Work - Article 
+----------------------------------------------------------------------------------------------------*/
+
+.headerimg {
+	width:100%;
+	height:120%;
+	position:absolute;
+	top:0;
+}
+
+.headerbg{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:$case01-color ;
+}
+
+.hero_unit{
+	width:100%;
+	height:120%;
+	position: relative;
+	float: left;
+}
+
+
+.copy01{
+	padding-bottom:100px;
+}
+
+h4{
+	font-family:$secondary-font ;
+	margin-left:15%;
+	font-size:0.750em;
+	line-height:1em;
+	margin:0 0 0 15%;
+}
+
+section#onder{
+	margin-top:150px;
 }
 
 

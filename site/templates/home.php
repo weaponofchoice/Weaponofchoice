@@ -9,10 +9,8 @@ snippet('header');
 <section id="home" class="fullscreen">
 	<div class="container_3">
 		<h2 class="position-fixed">
-			Weaponofchoice is een ontwerp<br/>
-			bureau voor 2d en 3d, we creëren<br/> 
-			doordachte visuele ervaringen op het<br/> 
-			web, in print en in de fysieke ruimte.
+			
+			<?php echo multiline($page->home()) ?>
 		</h2>
 	</div>
 	
@@ -22,14 +20,11 @@ snippet('header');
 	<div class="container_3">
 		<div class="profile-text">
 			<h2>
-				We geloven in de kracht van goede <br/>
-				ideeën en een esthetische realisatie. <br/> 
-				Ons team is toegewijd, flexibel en <br/> 
-				werkt heel precies.
+			<?php echo multiline($page->profile()) ?>
 			</h2>
 			<h3>
-				We werken voor ondernemers, creatieve bureau's, <br/>
-				de culturele sector en multinationals.<br/>
+				<?php echo multiline($page->profile_tagline()) ?>
+				
 			</h3>
 		</div>
 	</div>

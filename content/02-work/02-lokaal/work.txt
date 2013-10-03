@@ -1,17 +1,17 @@
-Title: Lokaal
+﻿Title: Lokaal
+
+----
+
+Quote: 
+
+----
+
+Copy01: 
+
+----
+
+Header: lokaal.jpg
 
 ----
 
 Hero: lokaal.jpg
-
-----
-
-Text: The new boutique of L&C Fashion is located near the Royal Palace at the Noordeinde in The Hague. The boutique sells delicate, luxurious women’s clothing and accessory from Italy with unique labels. The slogan of L&C Fashion, ‘Italian slow fashion’, points to the high quality of their products.WOC
-
-**Assignment:** Interior design, Project Management
-**Size:** 1.500m2
-**Status:** Completed 2012
-**Photography:** Jeroen Musch
-
-----
-

@@ -8,8 +8,8 @@
 	<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-prev="#prevControl" data-cycle-next="#nextControl" height="100%">
 	
 		   <?php foreach($data->children()->visible() as $work): ?>
-  			   <?php if($work->hero() !='' && $work->hero() !='0'): ?>  		
-  			 	 <?php $image = $work->images()->find( html($work->hero()) ) ?>
+  			   <?php if($work->header() !='' && $work->header() !='0'): ?>  		
+  			 	 <?php $image = $work->images()->find( html($work->header()) ) ?>
 				 
 			   	<div class="case">
 					<a class="case-link icon" href="<?php echo $work->url() ?>" >+</a>

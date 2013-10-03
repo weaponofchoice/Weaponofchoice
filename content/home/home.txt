@@ -1,12 +1,20 @@
-Title: Home
+﻿Title: Home
 
 ----
 
-Text: 
+Home: Weaponofchoice is een ontwerp
+bureau voor 2d en 3d, we creëren
+doordachte visuele ervaringen op het
+web, in print en in de fysieke ruimte.
 
-Yay! If you are seeing this, the installation of Kirby worked :)
-Now just give the links in the menu a try to see if URL redirection works as well.
+----
 
-Check out the docs: <http://getkirby.com/docs> if you run into any problems or send me an email: <bastian@getkirby.com>
+Profile: We geloven in de kracht van goede 
+ideeën en een esthetische realisatie. 
+Ons team is toegewijd, flexibel en 
+werkt heel precies.
 
-Have fun with Kirby!
+----
+
+Profile_tagline: We werken voor ondernemers, creatieve bureau's,
+de culturele sector en multinationals.

@@ -1,5 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
+
 # default blueprint
 
 title: Page
@@ -13,3 +14,4 @@ fields:
     label: Text
     type:  textarea
     size:  large
+
