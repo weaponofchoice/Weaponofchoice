@@ -1,8 +1,8 @@
-﻿Header: header.jpg
+﻿Header: header@2x.png
 
 ----
 
-Hero: hero.png
+Hero: hero@2x.png
 
 ----
 

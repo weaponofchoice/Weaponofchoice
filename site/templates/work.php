@@ -6,7 +6,7 @@
 	<?php if($page->hero() !='' && $page->hero() !='0'): ?>
 	<?php $image = $page->images()->find( html($page->hero()) ) ?>
 	<div class="headerimg">
-		<div class="case-container container_3" style="background-image:url('<?php echo $image->url() ?>');background-position: center; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
+		<div class="case-container " style="background-image:url('<?php echo $image->url() ?>');background-position: left; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;">
 		</div>
@@ -54,7 +54,7 @@
 
 <section id="meta" class="normal">
 	<div class="container_3">
-		<div class="grid_1 indent">
+		<div class="grid_1 indent meta">
 		
 			<?php echo kirbytext($page->meta()) ?>
 		

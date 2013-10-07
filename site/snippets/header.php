@@ -23,7 +23,7 @@
 		<div class="container_3">
 			
 			<div class="grid_1 alpha">
-				<h1>weaponofchoice</h1>
+				<h1><a href="/" title="Home">weaponofchoice</a></h1>
 			</div>
 			<div class="grid_2 omega menu-bar">
 				<ul class="main-nav ">
