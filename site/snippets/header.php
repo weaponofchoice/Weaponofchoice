@@ -8,7 +8,8 @@
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=9">
+  
   <?php echo css('assets/css/normalize.css') ?>
   <?php echo css('assets/css/main.css') ?>
   <?php echo js('/assets/js/vendor/modernizr-2.6.2.min.js') ?>
