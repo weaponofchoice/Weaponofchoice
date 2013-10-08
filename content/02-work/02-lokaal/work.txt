@@ -1,4 +1,12 @@
-﻿Title: Lokaal
+﻿Header: header@2x.png
+
+----
+
+Hero: lokaal.jpg
+
+----
+
+Title: Lokaal
 
 ----
 
@@ -10,8 +18,12 @@ Copy01:
 
 ----
 
-Header: lokaal.jpg
+Midden: 
 
 ----
 
-Hero: lokaal.jpg
+Onder: 03_PO_lokaal_interior_close.jpg
+
+----
+
+Meta: 

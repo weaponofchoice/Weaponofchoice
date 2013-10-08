@@ -20,13 +20,19 @@
 						
 			   		</div>
 			   	</div>  
-			 	
-				<script>
-			
-				$(document).ready(function(){
-					$('.<?php echo $work->num() ?>').backstretch("<?php echo $image->url() ?>");
-				})
-				</script						
+		 		<script>
+	
+		 		$(document).ready(function(){
+		 			$('.<?php echo $work->num() ?>').backstretch("<?php echo $image->url() ?>");
+					
+					
+					$('.backstretch').css({'width':'100%', 'height':'100%'});
+					$('.container_3').find('img').addClass('succes').css({'width':'100%', 'height':'100%'});
+					$('.succes').css({'min-width':'100%', 'min-height':'100%'})
+		 		})
+		 		</script>	
+			 
+						
 						
 			<?php endif ?>
 		   <?php endforeach ?>
