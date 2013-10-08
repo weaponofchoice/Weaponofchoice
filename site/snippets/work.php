@@ -26,9 +26,9 @@
 		 			$('.<?php echo $work->num() ?>').backstretch("<?php echo $image->url() ?>");
 					
 					
-					$('.backstretch').css({'width':'100%', 'height':'100%'});
-					$('.container_3').find('img').addClass('succes').css({'width':'100%', 'height':'100%'});
-					$('.succes').css({'min-width':'100%', 'min-height':'100%'})
+					$('.backstretch').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
+					$('.container_3').find('img').addClass('succes').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
+					$('.succes').css({'min-width':'100%', 'min-height':'100%'}) //Dirty backstretch Hack
 		 		})
 		 		</script>	
 			 
