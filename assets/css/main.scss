@@ -159,7 +159,7 @@ img.desaturate{
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
 filter: grayscale(100%);
-filter: url(desaturate.svg#greyscale);
+filter: url('../svg/desaturate.svg#greyscale');
 filter: gray;
 }
 
@@ -257,6 +257,8 @@ header{
 	position: fixed;
 	z-index: 999;
 	width: 100%;
+	top:0;
+	left:0;
 	background:$primary-color ;
 	color:$secondary-color;;
 }
