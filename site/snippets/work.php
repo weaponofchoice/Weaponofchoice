@@ -27,7 +27,7 @@
 					
 					
 					$('.backstretch').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
-					$('.container_3').find('img').addClass('succes').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
+					$('.case-container').find('img').addClass('succes').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
 					$('.succes').css({'min-width':'100%', 'min-height':'100%'}) //Dirty backstretch Hack
 		 		})
 		 		</script>	
