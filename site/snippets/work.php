@@ -13,7 +13,7 @@
 				 
 			   	<div class="case">
 					<a class="case-link icon" href="<?php echo $work->url() ?>" >+</a>
-			   		<div class="case-container container_3 " style="background-image:url('<?php echo $image->url() ?>');background-position: center; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
+			   		<div class="case-container container_3 <?php echo $work->num() ?>" style="background-image:url('<?php //echo $image->url() ?>');background-position: center; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
 				-moz-background-size: cover;
 				-o-background-size: cover;">
 					
@@ -21,8 +21,12 @@
 			   		</div>
 			   	</div>  
 			 	
-			 
-						
+				<script>
+			
+				$(document).ready(function(){
+					$('.<?php echo $work->num() ?>').backstretch("<?php echo $image->url() ?>");
+				})
+				</script						
 						
 			<?php endif ?>
 		   <?php endforeach ?>

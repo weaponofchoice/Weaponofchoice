@@ -13,7 +13,9 @@
   <?php echo css('assets/css/normalize.css') ?>
   <?php echo css('assets/css/main.css') ?>
   <?php echo js('/assets/js/vendor/modernizr-2.6.2.min.js') ?>
-  
+
+  <?php echo js('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') ?>
+  <?php echo js('assets/js/vendor/jquery-1.10.2.min.js') ?>
 	
 
 </head>
