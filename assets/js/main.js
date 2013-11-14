@@ -23,7 +23,8 @@ $('#profile').waypoint(function(up) {
 }, { offset: '60px'});
 
 $('#work').waypoint(function(down) {
-  $('header').addClass('work secondary');
+	$('header').removeClass();
+  $('header').addClass('bg-transparent secondary');
   
 }, { offset: '50px'});
 
@@ -49,7 +50,7 @@ $('#archive').waypoint(function(down) {
 }, { offset: '50px'});
 
 $('#archive').waypoint(function(up) {
-  $('header').removeClass().addClass('work ');
+  $('header').removeClass().addClass('bg-transparent ');
 }, { offset: '60px'});
 
 $('#archive').waypoint(function(up) {
@@ -63,5 +64,25 @@ $('#archive').waypoint(function(down) {
 }, { offset: '93%'});
 
 
-})
+
+/*Article Waypoints*/
+$('#body').waypoint(function(down) {
+	$('header').removeClass();
+  $('header').addClass('');
+  
+}, { offset: '50px'});
+
+$('#body').waypoint(function(up) {
+  $('header').removeClass().addClass('bg-transparent secondary');
+}, { offset: '60px'});
+
+/* */
+
+$('#work').waypoint(function(down){
+	 $(window).scrollTo("#work") }, { offset: '200px'});
+});
+
+$('#archive').waypoint(function(up) {
+   $(window).scrollTo("#work");
+}, { offset: '95%'});
 

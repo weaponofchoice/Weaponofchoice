@@ -2,6 +2,10 @@
 
 ----
 
+Background: af1008
+
+----
+
 Hero: hero@2x.png
 
 ----
@@ -21,7 +25,7 @@ Copy01: Can’t wait for the next Wright auction? Get your fix of stylish and si
 
 ----
 
-Midden: (image: middle_content.jpg class: img-responsive)
+Midden: (image: middle_content.jpg class: img-responsive )
 
 #### We’ve captured close to  
 #### a thousand items in the studio

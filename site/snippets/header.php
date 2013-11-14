@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body >
 
 	<header>
 		<div class="container_3">
@@ -30,10 +30,10 @@
 			</div>
 			<div class="grid_2 omega menu-bar">
 				<ul class="main-nav ">
-					<li><a href="#profile">Profile</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#archive">Archive</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a class="nav-profile" href="#profile">Profile</a></li>
+					<li><a class="nav-work" href="#work">Work</a></li>
+					<li><a class="nav-archive"> Archive</a></li>
+					<li><a class="nav-contact" href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>

@@ -2,19 +2,27 @@
 
 ----
 
-Hero: lokaal.jpg
+Background: c5c1b4
 
 ----
 
-Title: Lokaal
+Hero: hero@2x.png
 
 ----
 
-Quote: 
+Title: Lokaal - 1e klas koffie
 
 ----
 
-Copy01: 
+Quote: “you worry about making sure your coffee is the best brew in town, we’ll do the rest”
+
+----
+
+Copy01: When an entrepreneur and coffee-aficionado approached us a couple of years ago to create his espresso-bar in the center of our hometown we couldn’t refuse. The deal was simple: “you worry about making sure your coffee is the best brew in town, we’ll do the rest”
+
+Weaponofchoice was responsible for all interior design and branding. The building is underneath an old railway line, close to where once stood the pre-war majestic central station of Rotterdam. We wanted to revive the classical canteen atmosphere of the old stations of Europe. The concept is simple, a very minimal design, executed in very warm and high quality materials like brass and classical pine-wood.
+
+No high-end canteen can survive without a great menu and impressive business cards, all printed on smooth paper and of course not without gold foil embossing.
 
 ----
 

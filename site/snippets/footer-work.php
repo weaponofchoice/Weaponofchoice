@@ -9,7 +9,8 @@
 	
 	<?php echo js('assets/js/vendor/jquery.mosaicflow.min.js') ?>  
 	<?php echo js('assets/js/vendor/jquery.cycle2.min.js') ?> 
-	
+	<?php echo js('assets/js/vendor/waypoints.min.js') ?> 
+	<?php echo js('assets/js/vendor/jquery.backstretch.min.js') ?> 
 	
 	
 	<?php echo js('assets/js/plugins.js') ?>

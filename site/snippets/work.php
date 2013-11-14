@@ -4,42 +4,41 @@
 	    <span id="prevControl">p </span>
 	    <span id="nextControl">n</span>
 	</div>	
-	
-	<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-prev="#prevControl" data-cycle-next="#nextControl" height="100%">
+
 	
 		   <?php foreach($data->children()->visible() as $work): ?>
   			   <?php if($work->header() !='' && $work->header() !='0'): ?>  		
   			 	 <?php $image = $work->images()->find( html($work->header()) ) ?>
-				 
-			   	<div class="case">
-					<a class="case-link icon" href="<?php echo $work->url() ?>" >+</a>
-			   		<div class="case-container container_3 <?php echo $work->num() ?>" style="background-image:url('<?php //echo $image->url() ?>');background-position: center; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
-				-moz-background-size: cover;
-				-o-background-size: cover;">
-					
-						
-			   		</div>
-			   	</div>  
-		 		<script>
-	
-		 		$(document).ready(function(){
-		 			$('.<?php echo $work->num() ?>').backstretch("<?php echo $image->url() ?>");
-					
-					
-					$('.backstretch').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
-					$('.case-container').find('img').addClass('succes').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
-					$('.succes').css({'min-width':'100%', 'min-height':'100%'}) //Dirty backstretch Hack
-		 		})
-		 		</script>	
-			 
-						
+			
 						
 			<?php endif ?>
 		   <?php endforeach ?>
 		
-	   </div>
+
 		   
-		
+		   <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-prev="#prevControl" data-cycle-next="#nextControl">
+			   <?php foreach($data->children()->visible() as $work): ?>
+	  			   <?php if($work->header() !='' && $work->header() !='0'): ?>  		
+	  			 	 <?php $image = $work->images()->find( html($work->header()) ) ?>
+					 
+					<div class="work-cases work_<?php echo $work->num() ?>">
+						 <a class="work-link" href="<?php echo $work->url() ?>"></a>
+					 </div>
+					 <script>
+		 		 		$(document).ready(function(){
+		 		 			$('.work_<?php echo $work->num() ?>').backstretch("<?php echo $image->url() ?>");
+							$('.work_<?php echo $work->num() ?>').css({"background" :"#<?php echo $work->background() ?>"});
+							
+					
+					
+		 					//$('.backstretch').css({'width':'100%', 'height':'100%', 'overflow':'hidden'}); //Dirty backstretch Hack
+		 					//$('.case-container').find('img').addClass('succes').css({'width':'100%', 'height':'100%'}); //Dirty backstretch Hack
+		 					//$('.succes').css({'min-width':'100%', 'min-height':'100%'}) //Dirty backstretch Hack
+		 		 		})
+	 		 		</script>	
+				<?php endif ?>
+			   <?php endforeach ?>
+		   </div>
 		  
 	 
 </section>

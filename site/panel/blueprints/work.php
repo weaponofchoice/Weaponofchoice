@@ -15,7 +15,11 @@ fields:
 	    - image
 	  empty: select a photo
 	  required: true
-	  help: Selecteer hier een foto voor in de header-homepage 
+	  help: Selecteer hier een foto voor in de header-homepage
+	background: 
+	 label: Background
+	 type:  text
+	 help: Voer hier de hexadecimaal voor de achtergrond kleur
 	hero: 
 	 label: hero
 	 type:  fileselect

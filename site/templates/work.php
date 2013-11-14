@@ -1,65 +1,79 @@
 <?php snippet('header') ?>
 
+<script>
+$(document).ready(function(){
+//$(document).ready(function(){
+	$('header').removeClass().addClass('bg-transparent  secondary');
+//	$('header').addClass('work secondary');
+	
+	
+})
+	
+//})
+</script>
+
 <div class="hero_unit">
-	<div class="headerbg">
+	<div class="headerbg" style="background :#<?php echo $page->background() ?>">
 	</div>
 	<?php if($page->hero() !='' && $page->hero() !='0'): ?>
 	<?php $image = $page->images()->find( html($page->hero()) ) ?>
 	<div class="headerimg">
-		<div class="case-container " style="background-image:url('<?php echo $image->url() ?>');background-position: left; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;">
-		</div>
+		<img src="<?php echo $image->url() ?>" class="img-responsive">
 	</div>
+	
+	
+	
 	<?php endif ?>
 	
 </div>
 
-<section id="body" class="normal">
-	<div class="container_3">
-		<h2 class="work-title grid_1 indent"><?php echo html($page->title()) ?></h2>
+
+<div class="container_12">
+
+	<section id="body" class="normal">
+	
+			<div class="grid_5">
+				<h2 class="work-title  "><?php echo html($page->title()) ?></h2>
 		
+				<div class="clear"></div>
+		
+				<blockquote class="no-margin ">
+					<?php echo multiline($page->quote()) ?>
+				</blockquote>
+				<div class="clear"></div>
+				<p class="  ">
+					<?php echo multiline($page->copy01()) ?>
+				</p>
+			</div>
+	
 		<div class="clear"></div>
-		
-		<blockquote class="grid_1 indent">
-			<?php echo multiline($page->quote()) ?>
-		</blockquote>
-		<div class="clear"></div>
-		<p class="grid_1 indent copy01">
-			<?php echo multiline($page->copy01()) ?>
-		</p>
-		
-	</div>
-	<div class="clear"></div>
 	
 	
 	
 	
-	<div class="container_3">
-		<?php echo kirbytext($page->midden()) ?>
 		
-	</div>
+			<?php echo kirbytext($page->midden()) ?>
+		
 	
-</section>
+	</section>
 
-<?php if($page->onder() !='' && $page->onder() !='0'): ?>
-<?php $image = $page->images()->find( html($page->onder()) ) ?>
+	<?php if($page->onder() !='' && $page->onder() !='0'): ?>
+	<?php $image = $page->images()->find( html($page->onder()) ) ?>
 
-<section id="onder" class="fullscreen" style="background-image:url('<?php echo $image->url() ?>');background-position: center; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;">
-</section>
+	<section id="onder">
+		<img src="<?php echo $image->url() ?>" class="img-responsive">
+	</section>
 
-<?php endif ?>
+	<?php endif ?>
 
-<section id="meta" class="normal">
-	<div class="container_3">
-		<div class="grid_1 indent meta">
+	<section id="meta" class="normal">
 		
-			<?php echo kirbytext($page->meta()) ?>
+			<div class="grid_5  meta">
 		
-	    </div>
-	</div>
-</section>
-
+				<?php echo kirbytext($page->meta()) ?>
+		
+		    </div>
+		
+	</section>
+</div>
 <?php snippet('footer-work') ?>

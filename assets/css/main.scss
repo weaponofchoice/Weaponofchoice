@@ -104,7 +104,8 @@ $primary-color:#fff;
 $secondary-color:#000;
 $tertiary-color:#faebd7 ;
 
-$case01-color:#d8d8d8;
+$case01-color:#af1008;
+$case02-color:#af1008;
 
 $main-font:"NHaasGroteskDSPro-75Bd", 'Helvetica', 'arial, sans-serif';
 $main-font-regular:"NHaasGroteskTXStd-55Rg", 'Helvetica', 'arial, sans-serif';
@@ -116,15 +117,19 @@ $secondary-font:"Courier New", 'Courier', 'monospace';
 
 
 @import "grid";		      //Grid styles
+@import "960_12_col";	  //Grid 960 12 Col styles
 @import "fonts";		 //Typography loading	
 
+blockquote, p{margin-left:0; margin-right:0;}
 
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-
+.bg-transparent{
+	background:none;
+}
 body, html {
   height: 100%;
 }
@@ -134,7 +139,7 @@ body{
 }
 
 .img-responsive{display:block;
-	max-width:94%;
+	max-width:100%;
 	height:auto;
 	margin:0 auto;
 }
@@ -337,6 +342,7 @@ section.normal {
 
 .cycle-slideshow{
 	height:100%;
+	width:100%;
 }
 
 /* Sections
@@ -352,9 +358,48 @@ section#work{background:#fff ;}
 section#archive{background:$secondary-color ; padding:50px 0;}
 .archive {background:$secondary-color}
 
+/* Work cases - New
+----------------------------------------------------------------------------------------------------*/
 
+.work-cases{
+	width:100%;
+	height:100%;
+	background:$case01-color ;
+	position:absolute;
+}
 
-/* Work cases
+.work_01{
+	//background:#F00 !important;
+}
+
+.work-nav{
+	position: absolute;
+	margin-top: 25%;
+	z-index: 998;
+	padding:0 5%;
+	width:90%;
+	font-size:60px;
+	color:$primary-color;
+}
+
+#prevControl{
+	float:left;
+	position:relative;
+	width:100px
+}
+
+#nextControl{
+	float:right;
+	position:relative;
+	width:100px;
+}
+
+#prevControl:hover, #nextControl:hover{
+	@include rounded-top-left;
+	cursor:pointer;
+}
+
+/* Work cases - Old
 ----------------------------------------------------------------------------------------------------*/
 .case{
 	width:100%;
@@ -428,6 +473,16 @@ a.case-link:hover, a.case-link:active{
 }
 
 
+.work-link{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.work-link:hover{
+	
+}
+
 
 
 /* Archive Image Grid
@@ -436,11 +491,14 @@ a.case-link:hover, a.case-link:active{
     float:left;
     }
 	
+.mosaicflow__item{
+	padding:0 7% 0 0;
+}
 .mosaicflow__item img {
     display:block;
     width:100%;
     height:auto;
-	padding: 3% 0;
+	padding: 4% 0;
 }
 
 #cboxOverlay{
@@ -521,29 +579,44 @@ a.case-link:hover, a.case-link:active{
 
 .headerimg {
 	width:100%;
-	height:120%;
+	height:100%;
+	min-width:960px;
+	max-width:1440px;
+	position:relative;
+	margin:0 auto;
+	min-height:1200px;
+	top:10%;
+}
+
+.headerimg img{
 	position:absolute;
-	top:0;
+	bottom:0;
 }
 
 .headerbg{
 	width:100%;
 	height:100%;
+	min-width:960px;
 	position:absolute;
-	background:$case01-color ;
+	//background:$case01-color ;
+	min-height:680px;
 }
 
 .hero_unit{
 	width:100%;
-	height:120%;
+	height:100%;
+	min-width:960px;
 	position: relative;
 	float: left;
+	min-height:1200px;
 }
 
 
 .copy01{
 	padding-bottom:100px;
 }
+
+
 
 h4{
 	font-family:$secondary-font ;
@@ -553,13 +626,24 @@ h4{
 	margin:0 0 0 15%;
 }
 
+section#body{
+	
+}
+
 section#onder{
-	margin-top:150px;
+	
 }
 
 .meta p{
 	padding:40px 0;
 }
+
+
+
+.case-container .backstretch{
+	overflow:visible !important;
+}
+
 
 
 /* ==========================================================================
