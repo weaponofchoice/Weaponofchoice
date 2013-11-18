@@ -66,4 +66,4 @@ $(document).ready(function(){
 	  $('header').removeClass().addClass('bg-transparent secondary');
 	}, { offset: '60px'});
 
-)}
+})
