@@ -15,12 +15,13 @@ $(document).ready(function(){
 	$('#work').waypoint(function(down) {
 		$('header').removeClass();
 	  $('header').addClass('bg-transparent secondary');
+	  $(window).scrollTo("#work");
   
 	}, { offset: '50px'});
 
 	$('#work').waypoint(function(up) {
 	 $('footer').removeClass();
-  
+    
 	}, { offset: '95%'});
 
 	$('#work').waypoint(function(down) {
