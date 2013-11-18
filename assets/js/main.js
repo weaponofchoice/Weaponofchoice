@@ -15,7 +15,7 @@ $(document).ready(function(){
 	$('#work').waypoint(function(down) {
 		$('header').removeClass();
 	  $('header').addClass('bg-transparent secondary');
-	  $(window).scrollTo("#work");
+	  
   
 	}, { offset: '50px'});
 
