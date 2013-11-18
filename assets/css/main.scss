@@ -146,6 +146,7 @@ body{
 
 .position-fixed{
 	position:fixed;
+	
 }
 
 .position-relative{
@@ -153,7 +154,7 @@ body{
 }
 
 .position-top{
-	top:0;
+	top:0 !important;
 
 }
 
@@ -251,8 +252,8 @@ a:hover, a.active{
 	
 }
 
-
-
+/* Z-index
+----------------------------------------------------------------------------------------------------*/
 
 
 /* Main-nav
@@ -261,6 +262,8 @@ a:hover, a.active{
 header{
 	position: fixed;
 	z-index: 999;
+	-webkit-transform: translate3d(0,0,1px);
+	transform: translate3d(0,0,1px);
 	width: 100%;
 	top:0;
 	left:0;
@@ -307,6 +310,7 @@ footer.secondary, footer.secondary a:link, footer.secondary a:visited, footer.se
 footer.secondary.position-relative{
 	background:$secondary-color;
 	float: left;
+	//top:100%;
 }
 
 span.lang{
@@ -348,15 +352,44 @@ section.normal {
 /* Sections
 ----------------------------------------------------------------------------------------------------*/
 
+section#home{
+	
+}
 
-section#profile{background:$tertiary-color ;}
-.profile {background:$tertiary-color ;}
+.home-text{
+	z-index:-1;
+}
 
-section#work{background:#fff ;}
-.work{background:$case01-color ;}
+section#profile{
+	background:$tertiary-color ;
+	
+	
+}
+.profile {
+	background:$tertiary-color ;
+	
+}
+.profile-text{
+	
+}
 
-section#archive{background:$secondary-color ; padding:50px 0;}
-.archive {background:$secondary-color}
+section#work{
+	background:#fff ;
+	
+}
+.work{
+	background:$case01-color ;
+}
+
+section#archive{
+	background:$secondary-color ; padding:50px 0;
+	-webkit-transform: translate3d(0,0,1px);
+	transform: translate3d(0,0,1px);
+	
+}
+.archive {
+	background:$secondary-color
+}
 
 /* Work cases - New
 ----------------------------------------------------------------------------------------------------*/

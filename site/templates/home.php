@@ -6,9 +6,9 @@ snippet('header');
 
 ?>
 
-<section id="home" class="fullscreen">
+<section id="home" class="fullscreen ">
 	<div class="container_3">
-		<h2 class="position-fixed">
+		<h2 class="home-text position-fixed">
 			
 			<?php echo multiline($page->home()) ?>
 		</h2>

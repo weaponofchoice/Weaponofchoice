@@ -563,7 +563,7 @@ body, html {
   position: relative; }
 
 .position-top {
-  top: 0; }
+  top: 0 !important; }
 
 .hidden {
   display: none; }
@@ -637,11 +637,15 @@ a:link, a:visited, a:hover, a:active {
 a:hover, a.active {
   border-bottom: 2px solid black; }
 
+/* Z-index
+----------------------------------------------------------------------------------------------------*/
 /* Main-nav
 ----------------------------------------------------------------------------------------------------*/
 header {
   position: fixed;
   z-index: 999;
+  -webkit-transform: translate3d(0, 0, 1px);
+  transform: translate3d(0, 0, 1px);
   width: 100%;
   top: 0;
   left: 0;
@@ -717,6 +721,9 @@ section.normal {
 
 /* Sections
 ----------------------------------------------------------------------------------------------------*/
+.home-text {
+  z-index: -1; }
+
 section#profile {
   background: antiquewhite; }
 
@@ -731,7 +738,9 @@ section#work {
 
 section#archive {
   background: black;
-  padding: 50px 0; }
+  padding: 50px 0;
+  -webkit-transform: translate3d(0, 0, 1px);
+  transform: translate3d(0, 0, 1px); }
 
 .archive {
   background: black; }
