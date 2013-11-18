@@ -76,7 +76,7 @@ $('#body').waypoint(function(up) {
   $('header').removeClass().addClass('bg-transparent secondary');
 }, { offset: '60px'});
 
-/* */
+/* 
 
 $('#work').waypoint(function(down){
 	 $(window).scrollTo("#work") }, { offset: '200px'});
@@ -86,3 +86,4 @@ $('#archive').waypoint(function(up) {
    $(window).scrollTo("#work");
 }, { offset: '95%'});
 
+*/
